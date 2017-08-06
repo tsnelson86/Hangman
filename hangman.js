@@ -59,7 +59,7 @@ $(document).ready(function() {
 
 					//increases wins if the user guesses the full word correctly
 					if (wordTrackingArray.join("") == wordArray.join("")) {
-						setTimeout(function(){alert("You Win! Click OK to continue playing.");}, 100);
+						setTimeout(function(){alert("You Win! Click OK, then any key to continue playing.");}, 100);
 						wins++;
 						startNewGame = true;
 					}
