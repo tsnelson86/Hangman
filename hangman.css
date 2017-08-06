@@ -1,0 +1,44 @@
+
+@font-face{
+	font-family: RioGrande;
+	src: url('fonts/RioGrande.ttf')
+}
+
+.headerupdate {
+	margin-top: 30px;
+	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+	font-family: RioGrande;
+	color: #4D3325;
+	letter-spacing: 2px;
+}
+
+#currentword,
+#wins,
+#guessesremaining,
+#guessed {
+	font-family: "Arial";
+}
+
+.onpagetext {
+	margin-top: 65px;
+	overflow: auto;
+	font-family: RioGrande;
+	color: #4D3325;
+	letter-spacing: 2px;
+}
+
+.col-xs-12 {
+	text-align: center;
+}
+
+.panel {
+	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+	border: none;
+}
+
+body {
+	background-image: url(img/background2.jpg);
+	background-size: height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}

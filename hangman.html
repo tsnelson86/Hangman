@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game for Bootcamp</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="hangman.css"></style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="hangman.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron headerupdate">
+		  <h1 class="text-center">LET'S PLAY HANGMAN!</h1>
+		  <p class="text-center">Press any key to get started.</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		  	<div class="row">
+		  		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		   			<img id="gallows" src="img/Hangman-0.png">
+		   		</div>
+		   		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 onpagetext">
+			  		<p>Wins: <span id="wins"></span></p>
+			   		<p>Current Word: <span id="currentword"></span></p>
+			   		<p>Guesses Remaining: <span id="guessesremaining"></span></p>
+			   		<p>Letters Guessed: <span id="guessed"></span></p>
+					</div>
+				</div>	
+		  </div>
+		</div>
+	</div>	
+</body>
+</html>
